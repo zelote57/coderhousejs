@@ -1,5 +1,5 @@
 import CartWidget from './CartWidget';
-import ItemListContainer from './ItemListContainer';
+import ItemListContainer from '../ItemListContainer/ItemListContainer';
 
 const NavBar = () => {
     return(
@@ -20,8 +20,7 @@ const NavBar = () => {
                 </div>
             </div>
             <CartWidget />
-        </nav>
-        <ItemListContainer gretting="Old Music New Souls" />
+        </nav>        
         </>
     );
 }
